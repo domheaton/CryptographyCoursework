@@ -21,6 +21,12 @@ def findFactors(value):
             factors.append(i)
     return factors
 
+def removeSmallKeys(keyLengths):
+    print(' >Ignoring keys < 3 in length as they are highly unlikely')
+    keyLengths.remove(1)
+    keyLengths.remove(2)
+    return keyLengths
+
 def letterFrequency(ct):
     ct = ct.upper() #make all upper case
     freqAlphabet = {'A' : ct.count('A'), 'B' : ct.count('B'), 'C' : ct.count('C'),
@@ -43,13 +49,37 @@ def englishFrequency():
                 'Z': 0.07}
     return freqEnglish
 
+def columnarDecrypt(ciphertext, likelyKeys):
+    print('Columnar Decrypting...')
+    for i in range(0, 1): #INCREASE THIS NUMBER FOR MORE ITERATIONS
+        print(' >Key Length: ' + str(likelyKeys[i]))
+        numberRows = int(len(ciphertext)/likelyKeys[i])
+        print(' >Number of Rows: ' + str(numberRows) + '\n')
+        # generateMatrix(ciphertext, numberRows, likelyKeys[i])
+        matrix = cipherToMatrix(ciphertext, numberRows)
+        # print(matrix)
+        plaintext = matrixToPlaintext(matrix, likelyKeys[i], numberRows)
+        print(plaintext)
+
+def cipherToMatrix(ciphertext, keyLength):
+    return [ciphertext[i:i+keyLength] for i in range(0, len(ciphertext), keyLength)]
+
+def matrixToPlaintext(matrix, keyLength, numberRows):
+    plaintext = ''
+    for j in range(0, numberRows):
+        for i in range(0, keyLength):
+            plaintext += matrix[i][j] #generates the original column 0,1,2 for key of 3
+    return plaintext
+
 ciphertext = loadFile()
 cipherLength = str(len(ciphertext))
-keyLengths = str(findFactors(int(cipherLength)))
+keyLengths = findFactors(int(cipherLength))
 print('\nStarting Decipher Attempt...\n')
 print(' >Ciphertext: \n' + ciphertext + '\n')
 print(' >Length of Ciphertext: ' + cipherLength)
-print(' >Key lengths: ' + keyLengths + '\n')
+print(' >Key lengths: ' + str(keyLengths) + '\n')
+likelyKeys = removeSmallKeys(keyLengths)
+print(' >Likely keys: ' + str(likelyKeys) + '\n')
 
 #Frequency analysis
 ciphertextFrequency = letterFrequency(ciphertext)
@@ -64,5 +94,8 @@ plt.xlabel('letter')
 plt.ylabel('frequency')
 plt.show(block=False)
 
+#Columnar Transposition Attempt
+plaintext = columnarDecrypt(ciphertext, likelyKeys)
+
 #leave as final line
-plt.show()
+# plt.show()
