@@ -14,6 +14,13 @@ def loadFile():
     # print(ciphertext)
     return ciphertext
 
+def findFactors(value):
+    factors = []
+    for i in range(1, value+1):
+        if value % i == 0:
+            factors.append(i)
+    return factors
+
 def letterFrequency(ct):
     ct = ct.upper() #make all upper case
     freqAlphabet = {'A' : ct.count('A'), 'B' : ct.count('B'), 'C' : ct.count('C'),
@@ -37,8 +44,12 @@ def englishFrequency():
     return freqEnglish
 
 ciphertext = loadFile()
+cipherLength = str(len(ciphertext))
+keyLengths = str(findFactors(int(cipherLength)))
 print('\nStarting Decipher Attempt...\n')
 print(' >Ciphertext: \n' + ciphertext + '\n')
+print(' >Length of Ciphertext: ' + cipherLength)
+print(' >Key lengths: ' + keyLengths + '\n')
 
 #Frequency analysis
 ciphertextFrequency = letterFrequency(ciphertext)
@@ -52,7 +63,6 @@ plt.title('Comparison of freqency of letters in CT (blue) and English (orange)')
 plt.xlabel('letter')
 plt.ylabel('frequency')
 plt.show(block=False)
-
 
 #leave as final line
 plt.show()

@@ -1,0 +1,82 @@
+
+Attempting Caeser Cipher Brute Force
+ >ciphertext: Ymlfynbty tqmxqmfchm aug zy ogypcx tq u fcug ri xlbtlwx rbx jytphbla ipivcml. Zulcx hl nac lxqoerm hd mnab tqmxqmfchmq, mmsxxlnl ucej vx yvec nh ymlcml rbxgl dlipjywey tlx bbygrcyw mmpygenaq ugb qxyegcmlcm. Mfy mcuvfyk ucej ueqi aypx ghwgwtrchl ig fip uyej nac mmsxxlnl ylx eltqjbla mfy yshwygxlntj ztanl yhw ubxrbxp bx lyxbm mm ueryk rbxgl mcuvfcge nh cgifulgm lmgx ggimlmyhm aigayirm
+ >plaintext : [31mYmlfynbty tqmxqmfchm aug zy ogypcx tq u fcug ri xlbtlwx rbx jytphbla ipivcmlb Zulcx hl nac lxqoerm hd mnab tqmxqmfchmqz mmsxxlnl ucej vx yvec nh ymlcml rbxgl dlipjywey tlx bbygrcyw mmpygenaq ugb qxyegcmlcmb Mfy mcuvfyk ucej ueqi aypx ghwgwtrchl ig fip uyej nac mmsxxlnl ylx eltqjbla mfy yshwygxlntj ztanl yhw ubxrbxp bx lyxbm mm ueryk rbxgl mcuvfcge nh cgifulgm lmgx ggimlmyhm aigayirm[0m
+ >shift num.: -26
+
+ >plaintext : [31mZnmgzocuz urnyrngdin bvh az phzqdy ur v gdvh sj ymcumxy scy kzuqicmb jqjwdnmc Avmdy im obd myrpfsn ie nobc urnyrngdinra nntyymom vdfk wy zwfd oi znmdnm scyhm emjqkzxfz umy cczhsdzx nnqzhfobr vhc ryzfhdnmdnc Ngz ndvwgzl vdfk vfrj bzqy hixhxusdim jh gjq vzfk obd nntyymom zmy fmurkcmb ngz ztixzhymouk aubom zix vcyscyq cy mzycn nn vfszl scyhm ndvwgdhf oi dhjgvmhn mnhy hhjnmnzin bjhbzjsn[0m
+ >shift num.: -25
+
+ >plaintext : [31mAonhapdva vsozsohejo cwi ba qiarez vs w hewi tk zndvnyz tdz lavrjdnc krkxeond Bwnez jn pce nzsqgto jf opcd vsozsohejosb oouzznpn wegl xz axge pj aoneon tdzin fnkrlayga vnz ddaiteay ooraigpcs wid szagieoneod Oha oewxham wegl wgsk carz ijyiyvtejn ki hkr wagl pce oouzznpn anz gnvsldnc oha aujyaiznpvl bvcpn ajy wdztdzr dz nazdo oo wgtam tdzin oewxheig pj eikhwnio noiz iikonoajo ckicakto[0m
+ >shift num.: -24
+
+ >plaintext : [31mBpoibqewb wtpatpifkp dxj cb rjbsfa wt x ifxj ul aoewoza uea mbwskeod lslyfpoe Cxofa ko qdf oatrhup kg pqde wtpatpifkptc ppvaaoqo xfhm ya byhf qk bpofpo ueajo golsmbzhb woa eebjufbz ppsbjhqdt xje tabhjfpofpe Pib pfxyibn xfhm xhtl dbsa jkzjzwufko lj ils xbhm qdf ppvaaoqo boa howtmeod pib bvkzbjaoqwm cwdqo bkz xeaueas ea obaep pp xhubn ueajo pfxyifjh qk fjlixojp opja jjlpopbkp dljdblup[0m
+ >shift num.: -23
+
+ >plaintext : [31mCqpjcrfxc xuqbuqjglq eyk dc skctgb xu y jgyk vm bpfxpab vfb ncxtlfpe mtmzgqpf Dypgb lp reg pbusivq lh qref xuqbuqjglqud qqwbbprp ygin zb czig rl cqpgqp vfbkp hpmtncaic xpb ffckvgca qqtckireu ykf ubcikgqpgqf Qjc qgyzjco ygin yium ectb klakaxvglp mk jmt ycin reg qqwbbprp cpb ipxunfpe qjc cwlackbprxn dxerp cla yfbvfbt fb pcbfq qq yivco vfbkp qgyzjgki rl gkmjypkq pqkb kkmqpqclq emkecmvq[0m
+ >shift num.: -22
+
+ >plaintext : [31mDrqkdsgyd yvrcvrkhmr fzl ed tlduhc yv z khzl wn cqgyqbc wgc odyumgqf nunahrqg Ezqhc mq sfh qcvtjwr mi rsfg yvrcvrkhmrve rrxccqsq zhjo ac dajh sm drqhrq wgclq iqnuodbjd yqc ggdlwhdb rrudljsfv zlg vcdjlhrqhrg Rkd rhzakdp zhjo zjvn fduc lmblbywhmq nl knu zdjo sfh rrxccqsq dqc jqyvogqf rkd dxmbdlcqsyo eyfsq dmb zgcwgcu gc qdcgr rr zjwdp wgclq rhzakhlj sm hlnkzqlr qrlc llnrqrdmr fnlfdnwr[0m
+ >shift num.: -21
+
+ >plaintext : [31mEsrlethze zwsdwslins gam fe umevid zw a liam xo drhzrcd xhd pezvnhrg ovobisrh Farid nr tgi rdwukxs nj stgh zwsdwslinswf ssyddrtr aikp bd ebki tn esrisr xhdmr jrovpecke zrd hhemxiec ssvemktgw amh wdekmisrish Sle siableq aikp akwo gevd mncmczxinr om lov aekp tgi ssyddrtr erd krzwphrg sle eyncemdrtzp fzgtr enc ahdxhdv hd redhs ss akxeq xhdmr siablimk tn imolarms rsmd mmosrsens gomgeoxs[0m
+ >shift num.: -20
+
+ >plaintext : [31mFtsmfuiaf axtextmjot hbn gf vnfwje ax b mjbn yp esiasde yie qfawoish pwpcjtsi Gbsje os uhj sexvlyt ok tuhi axtextmjotxg ttzeesus bjlq ce fclj uo ftsjts yiens kspwqfdlf ase iifnyjfd ttwfnluhx bni xeflnjtsjti Tmf tjbcmfr bjlq blxp hfwe nodndayjos pn mpw bflq uhj ttzeesus fse lsaxqish tmf fzodfnesuaq gahus fod bieyiew ie sfeit tt blyfr yiens tjbcmjnl uo jnpmbsnt stne nnptstfot hpnhfpyt[0m
+ >shift num.: -19
+
+ >plaintext : [31mGutngvjbg byufyunkpu ico hg wogxkf by c nkco zq ftjbtef zjf rgbxpjti qxqdkutj Hctkf pt vik tfywmzu pl uvij byufyunkpuyh uuafftvt ckmr df gdmk vp gutkut zjfot ltqxrgemg btf jjgozkge uuxgomviy coj yfgmokutkuj Ung ukcdngs ckmr cmyq igxf opeoebzkpt qo nqx cgmr vik uuafftvt gtf mtbyrjti ung gapegoftvbr hbivt gpe cjfzjfx jf tgfju uu cmzgs zjfot ukcdnkom vp koqnctou tuof ooqutugpu iqoigqzu[0m
+ >shift num.: -18
+
+ >plaintext : [31mHvuohwkch czvgzvolqv jdp ih xphylg cz d oldp ar gukcufg akg shcyqkuj ryrelvuk Idulg qu wjl ugzxnav qm vwjk czvgzvolqvzi vvbgguwu dlns eg henl wq hvulvu akgpu muryshfnh cug kkhpalhf vvyhpnwjz dpk zghnplvulvk Voh vldeoht dlns dnzr jhyg pqfpfcalqu rp ory dhns wjl vvbgguwu hug nuczskuj voh hbqfhpguwcs icjwu hqf dkgakgy kg uhgkv vv dnaht akgpu vldeolpn wq lprodupv uvpg pprvuvhqv jrpjhrav[0m
+ >shift num.: -17
+
+ >plaintext : [31mIwvpixldi dawhawpmrw keq ji yqizmh da e pmeq bs hvldvgh blh tidzrlvk szsfmwvl Jevmh rv xkm vhayobw rn wxkl dawhawpmrwaj wwchhvxv emot fh ifom xr iwvmwv blhqv nvsztigoi dvh lliqbmig wwziqoxka eql ahioqmwvmwl Wpi wmefpiu emot eoas kizh qrgqgdbmrv sq psz eiot xkm wwchhvxv ivh ovdatlvk wpi icrgiqhvxdt jdkxv irg elhblhz lh vihlw ww eobiu blhqv wmefpmqo xr mqspevqw vwqh qqswvwirw ksqkisbw[0m
+ >shift num.: -16
+
+ >plaintext : [31mJxwqjymej ebxibxqnsx lfr kj zrjani eb f qnfr ct iwmewhi cmi ujeasmwl tatgnxwm Kfwni sw yln wibzpcx so xylm ebxibxqnsxbk xxdiiwyw fnpu gi jgpn ys jxwnxw cmirw owtaujhpj ewi mmjrcnjh xxajrpylb frm bijprnxwnxm Xqj xnfgqjv fnpu fpbt ljai rshrhecnsw tr qta fjpu yln xxdiiwyw jwi pwebumwl xqj jdshjriwyeu kelyw jsh fmicmia mi wjimx xx fpcjv cmirw xnfgqnrp ys nrtqfwrx wxri rrtxwxjsx ltrljtcx[0m
+ >shift num.: -15
+
+ >plaintext : [31mKyxrkznfk fcyjcyroty mgs lk askboj fc g rogs du jxnfxij dnj vkfbtnxm ubuhoyxn Lgxoj tx zmo xjcaqdy tp yzmn fcyjcyrotycl yyejjxzx goqv hj khqo zt kyxoyx dnjsx pxubvkiqk fxj nnksdoki yybksqzmc gsn cjkqsoyxoyn Yrk yoghrkw goqv gqcu mkbj stisifdotx us rub gkqv zmo yyejjxzx kxj qxfcvnxm yrk ketiksjxzfv lfmzx kti gnjdnjb nj xkjny yy gqdkw dnjsx yoghrosq zt osurgxsy xysj ssuyxykty musmkudy[0m
+ >shift num.: -14
+
+ >plaintext : [31mLzyslaogl gdzkdzspuz nht ml btlcpk gd h spht ev kyogyjk eok wlgcuoyn vcvipzyo Mhypk uy anp ykdbrez uq zano gdzkdzspuzdm zzfkkyay hprw ik lirp au lzypzy eokty qyvcwljrl gyk oolteplj zzcltrand hto dklrtpzypzo Zsl zphislx hprw hrdv nlck tujtjgepuy vt svc hlrw anp zzfkkyay lyk rygdwoyn zsl lfujltkyagw mgnay luj hokeokc ok ylkoz zz hrelx eokty zphisptr au ptvshytz yztk ttvzyzluz nvtnlvez[0m
+ >shift num.: -13
+
+ >plaintext : [31mMaztmbphm healeatqva oiu nm cumdql he i tqiu fw lzphzkl fpl xmhdvpzo wdwjqazp Nizql vz boq zlecsfa vr abop healeatqvaen aagllzbz iqsx jl mjsq bv mazqaz fpluz rzwdxmksm hzl ppmufqmk aadmusboe iup elmsuqazqap Atm aqijtmy iqsx isew omdl uvkukhfqvz wu twd imsx boq aagllzbz mzl szhexpzo atm mgvkmulzbhx nhobz mvk iplfpld pl zmlpa aa isfmy fpluz aqijtqus bv quwtizua zaul uuwazamva owuomwfa[0m
+ >shift num.: -12
+
+ >plaintext : [31mNbauncqin ifbmfburwb pjv on dvnerm if j urjv gx maqialm gqm yniewqap xexkrbaq Ojarm wa cpr amfdtgb ws bcpq ifbmfburwbfo bbhmmaca jrty km nktr cw nbarba gqmva saxeynltn iam qqnvgrnl bbenvtcpf jvq fmntvrbarbq Bun brjkunz jrty jtfx pnem vwlvligrwa xv uxe jnty cpr bbhmmaca nam taifyqap bun nhwlnvmaciy oipca nwl jqmgqme qm anmqb bb jtgnz gqmva brjkurvt cw rvxujavb abvm vvxbabnwb pxvpnxgb[0m
+ >shift num.: -11
+
+ >plaintext : [31mOcbvodrjo jgcngcvsxc qkw po ewofsn jg k vskw hy nbrjbmn hrn zojfxrbq yfylscbr Pkbsn xb dqs bngeuhc xt cdqr jgcngcvsxcgp ccinnbdb ksuz ln olus dx ocbscb hrnwb tbyfzomuo jbn rrowhsom ccfowudqg kwr gnouwscbscr Cvo csklvoa ksuz kugy qofn wxmwmjhsxb yw vyf kouz dqs ccinnbdb obn ubjgzrbq cvo oixmownbdjz pjqdb oxm krnhrnf rn bonrc cc kuhoa hrnwb csklvswu dx swyvkbwc bcwn wwycbcoxc qywqoyhc[0m
+ >shift num.: -10
+
+ >plaintext : [31mPdcwpeskp khdohdwtyd rlx qp fxpgto kh l wtlx iz ocskcno iso apkgyscr zgzmtdcs Qlcto yc ert cohfvid yu ders khdohdwtydhq ddjoocec ltva mo pmvt ey pdctdc isoxc uczgapnvp kco sspxitpn ddgpxverh lxs hopvxtdctds Dwp dtlmwpb ltva lvhz rpgo xynxnkityc zx wzg lpva ert ddjoocec pco vckhascr dwp pjynpxoceka qkrec pyn lsoisog so cposd dd lvipb isoxc dtlmwtxv ey txzwlcxd cdxo xxzdcdpyd rzxrpzid[0m
+ >shift num.: -9
+
+ >plaintext : [31mQedxqftlq liepiexuze smy rq gyqhup li m xumy ja pdtldop jtp bqlhztds ahanuedt Rmdup zd fsu dpigwje zv efst liepiexuzeir eekppdfd muwb np qnwu fz qedued jtpyd vdahbqowq ldp ttqyjuqo eehqywfsi myt ipqwyueduet Exq eumnxqc muwb mwia sqhp yzoyoljuzd ay xah mqwb fsu eekppdfd qdp wdlibtds exq qkzoqypdflb rlsfd qzo mtpjtph tp dqpte ee mwjqc jtpyd eumnxuyw fz uyaxmdye deyp yyaedeqze saysqaje[0m
+ >shift num.: -8
+
+ >plaintext : [31mRfeyrgumr mjfqjfyvaf tnz sr hzrivq mj n yvnz kb qeumepq kuq crmiauet bibovfeu Snevq ae gtv eqjhxkf aw fgtu mjfqjfyvafjs fflqqege nvxc oq roxv ga rfevfe kuqze webicrpxr meq uurzkvrp ffirzxgtj nzu jqrxzvfevfu Fyr fvnoyrd nvxc nxjb triq zapzpmkvae bz ybi nrxc gtv fflqqege req xemjcuet fyr rlaprzqegmc smtge rap nuqkuqi uq erquf ff nxkrd kuqze fvnoyvzx ga vzbynezf efzq zzbfefraf tbztrbkf[0m
+ >shift num.: -7
+
+ >plaintext : [31mSgfzshvns nkgrkgzwbg uoa ts iasjwr nk o zwoa lc rfvnfqr lvr dsnjbvfu cjcpwgfv Tofwr bf huw frkiylg bx ghuv nkgrkgzwbgkt ggmrrfhf owyd pr spyw hb sgfwgf lvraf xfcjdsqys nfr vvsalwsq ggjsayhuk oav krsyawgfwgv Gzs gwopzse owyd oykc usjr abqaqnlwbf ca zcj osyd huw ggmrrfhf sfr yfnkdvfu gzs smbqsarfhnd tnuhf sbq ovrlvrj vr fsrvg gg oylse lvraf gwopzway hb waczofag fgar aacgfgsbg ucausclg[0m
+ >shift num.: -6
+
+ >plaintext : [31mThgatiwot olhslhaxch vpb ut jbtkxs ol p axpb md sgwogrs mws etokcwgv dkdqxhgw Upgxs cg ivx gsljzmh cy hivw olhslhaxchlu hhnssgig pxze qs tqzx ic thgxhg mwsbg ygdketrzt ogs wwtbmxtr hhktbzivl pbw lstzbxhgxhw Hat hxpqatf pxze pzld vtks bcrbromxcg db adk ptze ivx hhnssgig tgs zgolewgv hat tncrtbsgioe uovig tcr pwsmwsk ws gtswh hh pzmtf mwsbg hxpqaxbz ic xbdapgbh ghbs bbdhghtch vdbvtdmh[0m
+ >shift num.: -5
+
+ >plaintext : [31mUihbujxpu pmitmibydi wqc vu kculyt pm q byqc ne thxphst nxt fupldxhw eleryihx Vqhyt dh jwy htmkani dz ijwx pmitmibydimv iiotthjh qyaf rt uray jd uihyih nxtch zhelfusau pht xxucnyus iilucajwm qcx mtuacyihyix Ibu iyqrbug qyaf qame wult cdscspnydh ec bel quaf jwy iiotthjh uht ahpmfxhw ibu uodsucthjpf vpwjh uds qxtnxtl xt hutxi ii qanug nxtch iyqrbyca jd ycebqhci hict cceihiudi wecwueni[0m
+ >shift num.: -4
+
+ >plaintext : [31mVjicvkyqv qnjunjczej xrd wv ldvmzu qn r czrd of uiyqitu oyu gvqmeyix fmfszjiy Wrizu ei kxz iunlboj ea jkxy qnjunjczejnw jjpuuiki rzbg su vsbz ke vjizji oyudi aifmgvtbv qiu yyvdozvt jjmvdbkxn rdy nuvbdzjizjy Jcv jzrscvh rzbg rbnf xvmu detdtqozei fd cfm rvbg kxz jjpuuiki viu biqngyix jcv vpetvduikqg wqxki vet ryuoyum yu ivuyj jj rbovh oyudi jzrsczdb ke zdfcridj ijdu ddfjijvej xfdxvfoj[0m
+ >shift num.: -3
+
+ >plaintext : [31mWkjdwlzrw rokvokdafk yse xw mewnav ro s dase pg vjzrjuv pzv hwrnfzjy gngtakjz Xsjav fj lya jvomcpk fb klyz rokvokdafkox kkqvvjlj sach tv wtca lf wkjakj pzvej bjgnhwucw rjv zzwepawu kknweclyo sez ovwceakjakz Kdw kastdwi sach scog ywnv efueurpafj ge dgn swch lya kkqvvjlj wjv cjrohzjy kdw wqfuwevjlrh xrylj wfu szvpzvn zv jwvzk kk scpwi pzvej kastdaec lf aegdsjek jkev eegkjkwfk ygeywgpk[0m
+ >shift num.: -2
+
+ >plaintext : [31mXlkexmasx splwplebgl ztf yx nfxobw sp t ebtf qh wkaskvw qaw ixsogakz hohublka Ytkbw gk mzb kwpndql gc lmza splwplebglpy llrwwkmk tbdi uw xudb mg xlkblk qawfk ckhoixvdx skw aaxfqbxv lloxfdmzp tfa pwxdfblkbla Lex lbtuexj tbdi tdph zxow fgvfvsqbgk hf eho txdi mzb llrwwkmk xkw dkspiakz lex xrgvxfwkmsi yszmk xgv tawqawo aw kxwal ll tdqxj qawfk lbtuebfd mg bfhetkfl klfw ffhlklxgl zhfzxhql[0m
+ >shift num.: -1
+
+Finished Caeser Decrypt Attempt
