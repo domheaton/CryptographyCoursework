@@ -6,6 +6,8 @@ from guess_language import guess_language
 from termcolor import colored
 import re
 import matplotlib.pylab as plt
+import itertools
+import os
 
 def loadFile():
     open_file = open("q3.txt", "r")
@@ -13,6 +15,12 @@ def loadFile():
     open_file.close()
     # print(ciphertext)
     return ciphertext
+
+def removeOldExport():
+    try:
+        os.remove('q3-plaintexts.txt')
+    except OSError:
+        pass
 
 def findFactors(value):
     factors = []
@@ -50,28 +58,60 @@ def englishFrequency():
     return freqEnglish
 
 def columnarDecrypt(ciphertext, likelyKeys):
-    print('Columnar Decrypting...')
-    for i in range(0, 1): #INCREASE THIS NUMBER FOR MORE ITERATIONS
+    print('Columnar Decrypting...\n')
+    for i in range(0, 2): #INCREASE THIS NUMBER FOR MORE ITERATIONS
         print(' >Key Length: ' + str(likelyKeys[i]))
         numberRows = int(len(ciphertext)/likelyKeys[i])
-        print(' >Number of Rows: ' + str(numberRows) + '\n')
+        print(' >Number of Rows: ' + str(numberRows))
         # generateMatrix(ciphertext, numberRows, likelyKeys[i])
         matrix = cipherToMatrix(ciphertext, numberRows)
         # print(matrix)
-        plaintext = matrixToPlaintext(matrix, likelyKeys[i], numberRows)
-        print(plaintext)
+        matrix = transposeMatrix(matrix)
+        # print(matrix)
+        plaintextArray = matrixToPlaintext(matrix, likelyKeys[i], numberRows)
+        printPlaintexts(plaintextArray, likelyKeys[i])
+        # exportPlaintexts(plaintextArray, likelyKeys[i])
 
 def cipherToMatrix(ciphertext, keyLength):
     return [ciphertext[i:i+keyLength] for i in range(0, len(ciphertext), keyLength)]
 
-def matrixToPlaintext(matrix, keyLength, numberRows):
-    plaintext = ''
-    for j in range(0, numberRows):
-        for i in range(0, keyLength):
-            plaintext += matrix[i][j] #generates the original column 0,1,2 for key of 3
-    return plaintext
+def transposeMatrix(matrix): #matrix of rows: key=3 gives a matrix of strings of length 3
+    return [*zip(*matrix)]
+
+def matrixToPlaintext(matrix, keyLength, numberRows): #matrix of columns: key=3 gives 3 strings
+    plaintextArray = []
+    tempList = []
+    tempString = ''
+    combinedList = []
+    numberOfColumns = list(range(0,keyLength)) #list number of columns
+    columnCombinations = list(set(itertools.permutations(numberOfColumns))) #list of all column permutations
+    # print(' >Column permutations to attempt: ' + str(columnCombinations) + '\n')
+    for i in range(0, len(columnCombinations)): #for iterating through column combinations list
+        for j in range(0, keyLength): #for iterating through individual columns in combinations
+            tempList = [row[columnCombinations[i][j]] for row in matrix] #fetch column in matrix
+            tempString += ''.join(tempList) #turn column into string
+            if j == (keyLength-1): #if we've got all the columns in the combination
+                plaintextArray.append(tempString) #add string to plaintext array
+                # print(plaintextArray)
+                tempString = ''
+    return plaintextArray
+
+def printPlaintexts(plaintextArray, keyLength):
+    print(' >Potential plaintexts for key length of ' + str(keyLength) + ':')
+    for i in range(0, len(plaintextArray)):
+        # if detect(plaintextArray[i]) == 'en': #attempt to limit output via language detection (not perfect)
+            # if guess_language(plaintextArray[i]) == 'en': #attempt to limit output via language detection (not perfect)
+        print('  ' + str(i+1) + '. ' + plaintextArray[i])
+        exportToFile(plaintextArray[i])
+    print() #blank line
+
+def exportToFile(plaintext):
+    open_file = open("q3-plaintexts.txt", "a")
+    open_file.write(plaintext + '\n')
+    open_file.close()
 
 ciphertext = loadFile()
+removeOldExport()
 cipherLength = str(len(ciphertext))
 keyLengths = findFactors(int(cipherLength))
 print('\nStarting Decipher Attempt...\n')
@@ -96,6 +136,5 @@ plt.show(block=False)
 
 #Columnar Transposition Attempt
 plaintext = columnarDecrypt(ciphertext, likelyKeys)
-
 #leave as final line
 # plt.show()
