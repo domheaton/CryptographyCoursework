@@ -19,16 +19,16 @@ YmlfynbtytqmxqmfchmaugzyogypcxtqufcugrixlbtlwxrbxjytphblaipivcmlZulcxhlnaclxqoer
  >Move to next key space listed if it fails
 
  >Plaintext Decipher Attempt Produces:
-[31mFodmafivqaseesemeztcmnbqviqwepasmmemntaentanoettelqarzinspraceesBmseponfhedesglteofeuctaseesemeztsetupenfswullneanlefoaeseestteidknawlqdgqanpidqntufyetrqngfhsmndieawneeseeThqtemchqrwullmlsahaheizdioatuonanhawwqllfheetupenfsadegdasbinsthqfuzdayenfalracfsazdwtettertenqedetomltqrtteidtemchungfoeyphmsiesoyeiypodtaztcancqpte[0m
+FodmafivqaseesemeztcmnbqviqwepasmmemntaentanoettelqarzinspraceesBmseponfhedesglteofeuctaseesemeztsetupenfswullneanlefoaeseestteidknawlqdgqanpidqntufyetrqngfhsmndieawneeseeThqtemchqrwullmlsahaheizdioatuonanhawwqllfheetupenfsadegdasbinsthqfuzdayenfalracfsazdwtettertenqedetomltqrtteidtemchungfoeyphmsiesoyeiypodtaztcancqpte
  >This is close to resembling english but every third letter is not quite right
 
  >2nd attempt to decipher gives:
-[31mFormativeassessmentcanbeviewedasameantoenhancethelearningprocessBasedontheresultsofsuchassessmentsstudentswillbeabletoassesstheirknowledgeandidentifystrengthsandweaknessesTheteacherwillalsohaveindicationonhowwellthestudentsaregraspingthefundamentalfactsandwhetherheneedstoaltertheirteachingtoemphasissomeimportantconcepts[0m
+FormativeassessmentcanbeviewedasameantoenhancethelearningprocessBasedontheresultsofsuchassessmentsstudentswillbeabletoassesstheirknowledgeandidentifystrengthsandweaknessesTheteacherwillalsohaveindicationonhowwellthestudentsaregraspingthefundamentalfactsandwhetherheneedstoaltertheirteachingtoemphasissomeimportantconcepts
  >This is now an english sentence, just requiring the spaces and punctuation to be re-entered
 
  >Formatting this as shown in the original Ciphertext gives:
-[31mFormative assessment can be viewed as a mean to enhance the learning process. Based on the results of such assessments, students will be able to assess their knowledge and identify strengths and weaknesses. The teacher will also have indication on how well the students are grasping the fundamental facts and whether he needs to alter their teaching to emphasis some important concepts.[0m
+Formative assessment can be viewed as a mean to enhance the learning process. Based on the results of such assessments, students will be able to assess their knowledge and identify strengths and weaknesses. The teacher will also have indication on how well the students are grasping the fundamental facts and whether he needs to alter their teaching to emphasis some important concepts.
 
  >The key is therefore of length 3. The shifts used to decipher the text allows the key to be recovered as displayed below
- >Key: [31mtyu[0m
+ >Key: tyu
 

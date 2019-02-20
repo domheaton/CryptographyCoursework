@@ -241,7 +241,7 @@ shifted3 = caeserShift(keyLetter3, shift3)
 
 #get plaintext
 plaintext = rebuildPlaintext(shifted1, shifted2, shifted3)
-print('\n >Plaintext Decipher Attempt Produces:\n' + colored(plaintext, 'red'))
+print('\n >Plaintext Decipher Attempt Produces:\n' + plaintext)
 print(' >This is close to resembling english but every third letter is not quite right')
 
 #find the next most frequent value and therefore shift for the 3rd set of letters
@@ -251,15 +251,15 @@ newShifted3 = caeserShift(keyLetter3, newShift3)
 
 #finally rebuild the cipher to show the final rebuildPlaintext
 plaintext = rebuildPlaintext(shifted1, shifted2, newShifted3)
-print('\n >2nd attempt to decipher gives:\n' + colored(plaintext, 'red'))
+print('\n >2nd attempt to decipher gives:\n' + plaintext)
 print(' >This is now an english sentence, just requiring the spaces and punctuation to be re-entered\n')
 # manual addition of punctuation through inspection of the ciphertext
 punctuatedPlaintext = 'Formative assessment can be viewed as a mean to enhance the learning process. Based on the results of such assessments, students will be able to assess their knowledge and identify strengths and weaknesses. The teacher will also have indication on how well the students are grasping the fundamental facts and whether he needs to alter their teaching to emphasis some important concepts.'
-print(' >Formatting this as shown in the original Ciphertext gives:\n' + colored(punctuatedPlaintext, 'red') + '\n')
+print(' >Formatting this as shown in the original Ciphertext gives:\n' + punctuatedPlaintext + '\n')
 
 print(' >The key is therefore of length 3. The shifts used to decipher the text allows the key to be recovered as displayed below')
 theKey = findKey(shift1, shift2, newShift3)
-print(' >Key: ' + colored(theKey, 'red') + '\n')
+print(' >Key: ' + theKey + '\n')
 
 exportSolution(punctuatedPlaintext, theKey)
 
