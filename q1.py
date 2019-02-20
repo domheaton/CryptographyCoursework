@@ -81,7 +81,7 @@ def letterFrequency(ct):
                     'Y' : ct.count('Y'), 'Z' : ct.count('Z')}
     return freqAlphabet
 
-def englishFrequency():
+def englishFrequency(): #from wikipedia
     freqEnglish = {'A': 8.17, 'B': 1.29, 'C': 2.78, 'D': 4.25,'E': 12.70,
                 'F': 2.23, 'G': 2.02, 'H': 6.09, 'I': 6.97, 'J': 0.15,
                 'K': 0.77, 'L': 4.03,  'M': 2.41, 'N': 6.75, 'O': 7.51,
