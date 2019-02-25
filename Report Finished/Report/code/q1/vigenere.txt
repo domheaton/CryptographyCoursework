@@ -1,0 +1,34 @@
+
+Starting Vigenere Decipher Attempt...
+
+ >Ciphertext: 
+Ymlfynbty tqmxqmfchm aug zy ogypcx tq u fcug ri xlbtlwx rbx jytphbla ipivcml. Zulcx hl nac lxqoerm hd mnab tqmxqmfchmq, mmsxxlnl ucej vx yvec nh ymlcml rbxgl dlipjywey tlx bbygrcyw mmpygenaq ugb qxyegcmlcm. Mfy mcuvfyk ucej ueqi aypx ghwgwtrchl ig fip uyej nac mmsxxlnl ylx eltqjbla mfy yshwygxlntj ztanl yhw ubxrbxp bx lyxbm mm ueryk rbxgl mcuvfcge nh cgifulgm lmgx ggimlmyhm aigayirm.
+
+ >Removing spaces and punctuation: 
+YmlfynbtytqmxqmfchmaugzyogypcxtqufcugrixlbtlwxrbxjytphblaipivcmlZulcxhlnaclxqoermhdmnabtqmxqmfchmqmmsxxlnlucejvxyvecnhymlcmlrbxgldlipjyweytlxbbygrcywmmpygenaqugbqxyegcmlcmMfymcuvfykucejueqiaypxghwgwtrchligfipuyejnacmmsxxlnlylxeltqjblamfyyshwygxlntjztanlyhwubxrbxpbxlyxbmmmuerykrbxglmcuvfcgenhcgifulgmlmgxggimlmyhmaigayirm
+
+ >Calculating...
+
+ >Largest repeated string: tqmxqmfchm
+ >Length of repeated string: 10
+ >Distance between repetitions: 78
+ >Possible key lengths: [1, 2, 3, 6, 13, 26, 39, 78]
+ >Ignoring keys < 3 in length as they are highly unlikely
+ >Likely keys: [3, 6, 13, 26, 39, 78]
+ >Attempt frequency analysis with key space of 3
+ >Move to next key space listed if it fails
+
+ >Plaintext Decipher Attempt Produces:
+FodmafivqaseesemeztcmnbqviqwepasmmemntaentanoettelqarzinspraceesBmseponfhedesglteofeuctaseesemeztsetupenfswullneanlefoaeseestteidknawlqdgqanpidqntufyetrqngfhsmndieawneeseeThqtemchqrwullmlsahaheizdioatuonanhawwqllfheetupenfsadegdasbinsthqfuzdayenfalracfsazdwtettertenqedetomltqrtteidtemchungfoeyphmsiesoyeiypodtaztcancqpte
+ >This is close to resembling english but every third letter is not quite right
+
+ >2nd attempt to decipher gives:
+FormativeassessmentcanbeviewedasameantoenhancethelearningprocessBasedontheresultsofsuchassessmentsstudentswillbeabletoassesstheirknowledgeandidentifystrengthsandweaknessesTheteacherwillalsohaveindicationonhowwellthestudentsaregraspingthefundamentalfactsandwhetherheneedstoaltertheirteachingtoemphasissomeimportantconcepts
+ >This is now an english sentence, just requiring the spaces and punctuation to be re-entered
+
+ >Formatting this as shown in the original Ciphertext gives:
+Formative assessment can be viewed as a mean to enhance the learning process. Based on the results of such assessments, students will be able to assess their knowledge and identify strengths and weaknesses. The teacher will also have indication on how well the students are grasping the fundamental facts and whether he needs to alter their teaching to emphasis some important concepts.
+
+ >The key is therefore of length 3. The shifts used to decipher the text allows the key to be recovered as displayed below
+ >Key: tyu
+

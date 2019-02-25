@@ -1,0 +1,129 @@
+
+Starting Rail Fence Decipher Attempt...
+
+ >Message: 
+thisisatestoftherailfencedecoder
+
+ >Length of Ciphertext: 32
+ >Max number of Rails is therefore: 31
+
+ >No. of Rails: 2
+ >Ciphertext: tiiaetfhrifneeoehsstsotealecdcdr
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 3
+ >Ciphertext: tiefrfeohsstsotealecdcdriathinee
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 4
+ >Ciphertext: tafieehstotalcddriiethrfneosseec
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 5
+ >Ciphertext: terehtseacdriathineessotlecdiffo
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 6
+ >Ciphertext: ttfehsoledriefinosttacciahreesed
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 7
+ >Ciphertext: tfehotcdithnesseecierfostaldraie
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 8
+ >Ciphertext: thohtecdifreesoadritiesslcaefnte
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 9
+ >Ciphertext: trhearihiestldiffosoecatnetscdee
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 10
+ >Ciphertext: tihalirfseeihnstcrafeetoddeteosc
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 11
+ >Ciphertext: tfhleiinsaciresedahettcefosodrte
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 12
+ >Ciphertext: tnhecifesldiiesacarotedehestrtfo
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 13
+ >Ciphertext: tehcdinesecifosldaietarersethotf
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 14
+ >Ciphertext: tehdcieoscdineseraftleisatroefht
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 15
+ >Ciphertext: tohcdieesdriescanteefsltioafrteh
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 16
+ >Ciphertext: tehdriosciesdaetcensetfolfitahre
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 17
+ >Ciphertext: thriesdioscaetdeesctnoefftlhiear
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 18
+ >Ciphertext: thisriesdaotceesdteocfntehfelria
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 19
+ >Ciphertext: thisisraetdeoscteodfetchneerfali
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 20
+ >Ciphertext: thisisatreesdtoocfetdheecrnaeifl
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 21
+ >Ciphertext: thisisatesrteodfotcheedreacinlef
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 22
+ >Ciphertext: thisisatestorfetdhoecreadielcfne
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 23
+ >Ciphertext: thisisatestoftrheedroacieldfeecn
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 24
+ >Ciphertext: thisisatestoftherreadiolcfeednec
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 25
+ >Ciphertext: thisisatestoftherarieldfoecnecde
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 26
+ >Ciphertext: thisisatestoftherailrfeednocceed
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 27
+ >Ciphertext: thisisatestoftherailfernecdeodce
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 28
+ >Ciphertext: thisisatestoftherailfencreeddeoc
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 29
+ >Ciphertext: thisisatestoftherailfencedreecdo
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 30
+ >Ciphertext: thisisatestoftherailfencedecroed
+ >Plaintext: thisisatestoftherailfencedecoder
+
+ >No. of Rails: 31
+ >Ciphertext: thisisatestoftherailfencedecodre
+ >Plaintext: thisisatestoftherailfencedecoder
+
